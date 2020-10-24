@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+.flex-container {
+    display: flex;
+    background: peachpuff;
+    /*flex-direction: row;*/
+    justify-content: center;
+}
+.flex-container > div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    width: 200px;
+    font-size: 30px;
+    background: rosybrown;
+    text-align: center;
+}
